@@ -11,7 +11,7 @@ function getArrayParams(...arr) {
 }
 
 function summElementsWorker(...arr) {
-	const sum = arr.reduce((acc, item) => acc + item, 0);
+	return arr.reduce((acc, item) => acc + item, 0);
 }
 
 function differenceMaxMinWorker(...arr) {
